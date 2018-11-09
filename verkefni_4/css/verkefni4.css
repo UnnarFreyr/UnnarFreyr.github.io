@@ -1,0 +1,129 @@
+body{
+    background: rgb(2, 58, 32);
+    font-family: Arial;
+}
+
+/*Hausin*/
+header{
+
+    width: 960px;
+    margin:0 auto;
+
+    color: #ffffff;
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hausgroup1{
+    font-size: 1.7em;
+}
+
+.hausgroup2{
+    text-align: right;
+    margin:0px 0px 40px 0px;
+}
+
+.hausgroup3{
+    text-align: right;
+    margin: 20px 0px 0px 0px
+}
+
+
+
+/*Miðja*/
+.midja{
+    height: 300px;
+    background: linear-gradient(#50a162, #80c18f);
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.brandari1{
+    font-family: fantasy;
+    background: linear-gradient(#fffda1, #e7ff62)
+}
+
+h3{
+    padding-top: 10px;
+    margin-top: 0px;
+}
+.brandari2{
+    background: linear-gradient(#78e974,#3b7038)
+}
+
+.brandari3{
+    background: linear-gradient( #9dff00a1,#578b04a1 )
+}
+
+.brandari4{
+    background: linear-gradient(#39b3c0,#5fe5f5)
+}
+
+.brandari5{
+    background:linear-gradient(magenta,lime)
+}
+
+.brandari6{
+    background: linear-gradient(yellow, red)
+}
+
+.botmidja{
+    background-color: #9f4f89
+}
+
+/*Footing*/
+.footinggrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.drullufix{
+    margin-bottom: 0px;
+}
+
+.pilaUpp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background: whitesmoke;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    background: #395870;
+    background: linear-gradient(#49708f, #293f50);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  }
+  .navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+  }
