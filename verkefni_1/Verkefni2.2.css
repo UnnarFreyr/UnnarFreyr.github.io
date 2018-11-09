@@ -1,0 +1,46 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+
+h1{
+    color: blue;
+   text-align: center;
+}
+
+ul {
+    color: purple;
+}
+
+.specialtext {
+    color: #00FF00;
+    font-size: 3em;
+       
+}
+
+.elvis {
+    color: red;
+    font-size: 2em;
+}
+
+.bluetext {
+    color: aqua;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

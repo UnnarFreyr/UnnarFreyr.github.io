@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+/*Síða 1*/
+.div1{
+    display: grid;
+    grid-template-rows: 50px;
+    background: #faebd7;
+}
+
+.fyrirsogn {
+    text-align: center;
+
+}
+
+.horntexti {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.font1{
+    font-family:'Times New Roman'; 
+    border: solid black;
+}    
+
+.font2{
+    font-family: Arial, sans-serif;
+    border: solid black;
+}
+
+.font3{
+    font-family: Courier, monospace;
+    border: solid black;
+}
+/*Síða 2*/
+.gridsida2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2"
+    "box3 box4";
+}
+
+.font1_1{
+    grid-area: box1;
+    font-family: georgia;
+    border: solid black;
+}
+
+.font1_2{
+    grid-area: box2;
+    font-family: trebuchet;
+    border: solid black;
+}
+
+.font1_3{
+    grid-area: box3;
+    font-family: 'Arial Black';
+    border: solid black;
+}
+
+.font1_4{
+    grid-area: box4;
+    font-family: Impact, Haettenschweiler;
+    border: solid black;
+}
+/*Síða 3*/
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.font2_1{
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    line-height: 1.6em;
+    border: solid black;
+}
+
+pre{
+    border: solid black;
+}
+
+.grid4{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: Impact;
+    text-align: center;
+    background: burlywood;
+    font-size: 2em;
+}
+
+.raudurtexti{
+    color: red;
+}

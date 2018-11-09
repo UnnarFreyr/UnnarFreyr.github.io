@@ -1,0 +1,123 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    border: 2px;
+    border-style: solid;
+    border-color: green
+}
+
+/*Þetta er fyrir efri div*/
+.steven{
+    border: 4px solid red;
+    margin-top: 3em;
+}
+
+.carl{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid green;
+    color: #FF0000;
+}
+
+.watson{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px dashed blue;
+    color: #0000FF;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.block li{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green;
+}
+.block2 li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+}
+
+.block3 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
+
+.float1 {
+    float: left;
+    width: 50%;
+    border: 2px solid red;
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+
+.float2 {
+    float: left;
+    width: 33.33%;
+    border: 2px solid red;
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+
+div{
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.section_sida_3{
+    border: 5px solid midnightblue;
+    padding: 8px;
+}
+
+/*Clear Fix*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}

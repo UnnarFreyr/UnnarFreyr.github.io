@@ -1,0 +1,37 @@
+.wrap{
+    display: grid;
+    grid-template-areas: 
+    "head head head head head"
+    "navi navi navi navi navi"
+    "aside1 main main main aside2"
+    "foot foot foot foot foot"
+
+}
+
+header{
+    grid-area: "head";
+}
+
+nav{
+    grid-area: "navi";
+}
+
+.aside{
+    grid-area: "aside1";
+}
+
+div{
+    grid-area: "main";
+}
+
+.aside2{
+    grid-area: "aside2";
+}
+
+footer{
+    grid-area: "foot";
+}
+
+p{
+    text-align: center auto;
+}
